@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11a28c4-f7b0-49b4-802e-2f196b349e0f" name="Default Changelist" comment="add .gitIgnore">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,14 @@
       <recent name="$PROJECT_DIR$/src/main/ru.pogorelov.alexey" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestMain.testValidateNumberFailed">
+  <component name="RunManager" selected="TestNG.TestMain">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HomeTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMain" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HomeTask" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,18 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain.testValidateNumber" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HomeTask" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMain" />
-      <option name="METHOD_NAME" value="testValidateNumber" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestMain.testValidateNumberFailed" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HomeTask" />
       <option name="PACKAGE_NAME" value="" />
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestMain" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.TestMain.testValidateNumberFailed" />
         <item itemvalue="TestNG.TestMain.testConversionBinaryToOctalFailed" />
         <item itemvalue="TestNG.TestMain.testConversionDecimalToBinaryFailed" />
-        <item itemvalue="TestNG.TestMain" />
-        <item itemvalue="TestNG.TestMain.testValidateNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -189,10 +188,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="add .gitIgnore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="65" key="#Project_Structure" timestamp="1576751852072">
+    <state x="240" y="65" key="#Project_Structure" timestamp="1576775185100">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="65" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1576751852072" />
+    <state x="240" y="65" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1576775185100" />
+    <state x="316" y="54" key="#TestMain" timestamp="1576775600591">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="316" y="54" key="#TestMain/0.0.1280.800@0.0.1280.800" timestamp="1576775600591" />
     <state x="376" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576751890551">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -201,22 +204,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="278" y="47" width="733" height="709" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1576772632872" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1576773727228">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1576778237247">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576773727228" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1576773727227">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576778237247" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1576778237246">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576773727227" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1576773727227">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576778237246" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1576778237245">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576773727227" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1576773727228">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576778237245" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1576778237247">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576773727228" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576778237247" />
     <state x="149" y="39" key="SettingsEditor" timestamp="1576696190597">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
