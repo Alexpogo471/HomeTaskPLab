@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f11a28c4-f7b0-49b4-802e-2f196b349e0f" name="Default Changelist" comment="">
+    <list default="true" id="f11a28c4-f7b0-49b4-802e-2f196b349e0f" name="Default Changelist" comment="add .gitIgnore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestMain.class" afterDir="false" />
     </list>
@@ -53,14 +54,7 @@
       <recent name="$PROJECT_DIR$/src/main/ru.pogorelov.alexey" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestMain">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="HomeTask" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestMain.testValidateNumberFailed">
     <configuration name="TestMain" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HomeTask" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,11 +66,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain.testConversionDecimalToBinary" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMain.testConversionBinaryToOctalFailed" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HomeTask" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestMain" />
-      <option name="METHOD_NAME" value="testConversionDecimalToBinary" />
+      <option name="METHOD_NAME" value="testConversionBinaryToOctalFailed" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -84,11 +78,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain.testConversionDecimalToHexadecimal" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMain.testConversionDecimalToBinaryFailed" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HomeTask" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestMain" />
-      <option name="METHOD_NAME" value="testConversionDecimalToHexadecimal" />
+      <option name="METHOD_NAME" value="testConversionDecimalToBinaryFailed" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -108,13 +102,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMain.testValidateNumberFailed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HomeTask" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMain" />
+      <option name="METHOD_NAME" value="testValidateNumberFailed" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestMain.testValidateNumberFailed" />
+        <item itemvalue="TestNG.TestMain.testConversionBinaryToOctalFailed" />
+        <item itemvalue="TestNG.TestMain.testConversionDecimalToBinaryFailed" />
         <item itemvalue="TestNG.TestMain" />
         <item itemvalue="TestNG.TestMain.testValidateNumber" />
-        <item itemvalue="TestNG.TestMain.testConversionDecimalToHexadecimal" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="TestNG.TestMain.testConversionDecimalToBinary" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +171,17 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="add validateNumber" />
@@ -180,26 +197,26 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="376" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1576751890551" />
-    <state x="278" y="47" width="733" height="709" key="CommitChangelistDialog2" timestamp="1576755674113">
+    <state x="278" y="47" width="733" height="709" key="CommitChangelistDialog2" timestamp="1576772632872">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="278" y="47" width="733" height="709" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1576755674113" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1576772228286">
+    <state x="278" y="47" width="733" height="709" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1576772632872" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1576773727228">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576772228286" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1576772228286">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576773727228" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1576773727227">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576772228286" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1576772228285">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576773727227" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1576773727227">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576772228285" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1576772228286">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576773727227" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1576773727228">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576772228286" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576773727228" />
     <state x="149" y="39" key="SettingsEditor" timestamp="1576696190597">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
