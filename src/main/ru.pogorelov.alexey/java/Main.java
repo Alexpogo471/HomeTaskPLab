@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(validateNumber());
+        System.out.println(binToHex("7484"));
     }
 
     public String conversionDecimalToBinary(int number) {
@@ -34,20 +34,23 @@ public class Main {
         return String.valueOf(octalNumber);
     }
 
-    public static boolean validateNumber(int number) {
-        String res = String.valueOf(number);
-        Pattern p = Pattern.compile("^[0-1]$");
-        Pattern p2 = Pattern.compile("^[0-7]$");
-        Pattern p3 = Pattern.compile("^[A-F]$");
-        if (res.contains(p.toString())){
-            return true;
+    public static boolean validateNumber(String number) {
+        try {
+            Long.parseLong(number, 16);
         }
-        if (res.contains(p2.toString())){
-            return true;
+        catch (NumberFormatException num){
+            try {
+                Long.parseLong(number, 8);
+            }
+            catch (NumberFormatException num1){
+                try {
+                    Long.parseLong(number, 2);
+                }
+                catch (NumberFormatException num3){
+                    return false;
+                }
+            }
         }
-        if (res.contains(p3.toString())){
-            return true;
-        }
-        return false;
+        return true;
     }
 }
