@@ -19,6 +19,9 @@ public class TestMain {
         System.out.println((Thread.currentThread().getId()));
     }
 
+
+    //--------------- Successful Tests -------------------
+
     @DataProvider(name = "DecimalBinaryProvider", parallel = true)
     public Object[][] DecimalBinaryProvider(){
         return new Object[][]{
@@ -54,5 +57,18 @@ public class TestMain {
     public void testConversionBinaryToOctal(int number, String result){
         Assert.assertEquals(main.conversionBinaryToOctal(number),result,"wrong conversion");
     }
+
+    @DataProvider(name = "validateNumberProvider", parallel = true)
+    public Object[][] validateNumberProvider(){
+        return new Object[][]{
+                {"543",true},{"34",true},{"1010101",true},{"12a",true}
+        };
+    }
+    @Test(description = "Check validateNumber", dataProvider = "validateNumberProvider")
+    public void testValidateNumber(String number,Boolean result){
+        Assert.assertEquals((Object) main.validateNumber(number),result);
+    }
+
+
 
 }
