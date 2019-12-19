@@ -4,14 +4,15 @@ import java.util.regex.Pattern;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(binToHex("7484"));
+
+
     }
 
     public String conversionDecimalToBinary(int number) {
         return Integer.toBinaryString(number);
     }
 
-    public String conversionDecimalToHexadecimal(int number) {
+    public  String conversionDecimalToHexadecimal(int number) {
         return Integer.toHexString(number);
     }
 
@@ -34,7 +35,7 @@ public class Main {
         return String.valueOf(octalNumber);
     }
 
-    public static boolean validateNumber(String number) {
+    public boolean validateNumber(String number) {
         try {
             Long.parseLong(number, 16);
         }
